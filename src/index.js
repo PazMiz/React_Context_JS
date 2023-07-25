@@ -1,15 +1,15 @@
-// src/index.js
-
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './App';
-import { ThemeProvider } from './ThemeContext'; // Import the ThemeProvider
-import { LoginProvider } from './LoginContext'; // Import the LoginProvider
+import { ThemeProvider } from './ThemeContext';
+import { LoginProvider } from './LoginContext';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
+root.render(
   <React.StrictMode>
     <ThemeProvider>
-      <LoginProvider> {/* Place the LoginProvider inside the ThemeProvider */}
+      <LoginProvider>
         <App />
       </LoginProvider>
     </ThemeProvider>

@@ -35,3 +35,12 @@ $font-color: #18eddb; /* Default font color */
   background-color: #0088ff;
   color: $font-color;
 }
+
+.button {
+  /* Styles for buttons with the "button" class */
+  background-color: #0088ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}

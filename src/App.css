@@ -25,4 +25,13 @@
   background-color: rgb(231, 241, 238);
   background-color: #0088ff;
   color: #18eddb;
+}
+
+.button {
+  /* Styles for buttons with the "button" class */
+  background-color: #0088ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
 }/*# sourceMappingURL=app.css.map */
